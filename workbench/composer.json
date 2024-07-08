@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": "^8.2",
-        "ehsunm0radi/upload-manager": "main",
+        "ehsunm0radi/upload-manager": "dev-main",
         "laravel/framework": "^11.9",
         "laravel/tinker": "^2.9"
     },
