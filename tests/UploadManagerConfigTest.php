@@ -17,7 +17,7 @@ class UploadManagerConfigTest extends TestCase
     protected function getPackageProviders($app)
     {
         return [
-          \Ehsan\UploadManager\UploadManagerServiceProvider::class,
+            \Ehsan\UploadManager\UploadManagerServiceProvider::class,
         ];
     }
 }
