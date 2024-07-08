@@ -8,6 +8,21 @@ use Ehsan\UploadManager\Commands\UploadManagerCommand;
 
 class UploadManagerServiceProvider extends PackageServiceProvider
 {
+    
+    public function boot()
+    {
+        $this->publishes([
+            __DIR__.'/../config/upload_manager.php' => config_path('upload_manager.php'),
+        ], 'config');
+    }
+
+    public function register()
+    {
+        $this->mergeConfigFrom(
+            __DIR__.'/../config/upload_manager.php', 'upload_manager'
+        );
+    }
+
     public function configurePackage(Package $package): void
     {
         /*

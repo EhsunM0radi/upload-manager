@@ -16,7 +16,7 @@
         }
     ],
     "require": {
-        "php": "^8.2",
+        "php": "^8.0||^8.2",
         "spatie/laravel-package-tools": "^1.16",
         "illuminate/contracts": "^10.0||^11.0"
     },
@@ -70,6 +70,21 @@
         }
     },
     "extra": {
+        "export-ignore": [
+            "/workbench",
+            "/tests",
+            "/build",
+            ".env",
+            ".gitignore",
+            ".gitattributes",
+            "composer.lock",
+            "phpunit.xml",
+            "README.md",
+            ".phpunit.cache",
+            "phpstan.neon",
+            "phpstan-baseline.neon",
+            ".editorconfig"
+        ],
         "laravel": {
             "providers": [
                 "Ehsan\\UploadManager\\UploadManagerServiceProvider"
