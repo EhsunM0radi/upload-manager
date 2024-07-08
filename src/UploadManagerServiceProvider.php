@@ -2,9 +2,9 @@
 
 namespace Ehsan\UploadManager;
 
+use Ehsan\UploadManager\Commands\UploadManagerCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Ehsan\UploadManager\Commands\UploadManagerCommand;
 
 class UploadManagerServiceProvider extends PackageServiceProvider
 {

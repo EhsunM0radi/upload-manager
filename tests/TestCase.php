@@ -2,9 +2,9 @@
 
 namespace Ehsan\UploadManager\Tests;
 
+use Ehsan\UploadManager\UploadManagerServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Ehsan\UploadManager\UploadManagerServiceProvider;
 
 class TestCase extends Orchestra
 {
