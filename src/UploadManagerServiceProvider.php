@@ -8,7 +8,6 @@ use Spatie\LaravelPackageTools\PackageServiceProvider;
 
 class UploadManagerServiceProvider extends PackageServiceProvider
 {
-    
     public function boot()
     {
         $this->publishes([
